@@ -96,13 +96,13 @@
 	<distributionManagement>
 	
 	    <repository>
-
-	      <name>Maven-Web-Application-Release</name>
-	      <url>http://3.110.148.146:8081/repository/maven-releases/</url>
+		<id>nexus-snapshots</id>
+	        <name>Maven-Web-Application-Release</name>
+	        <url>http://3.110.148.146:8081/repository/maven-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      
+	      <id>nexus-snapshots</id>
 	      <name>Maven-Web-Snapshot-Repository</name>
 	      <url>http://3.110.148.146:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
