@@ -95,19 +95,16 @@
 	
 	<distributionManagement>
 	
-	    <repository>
-		<id>nexus-releases</id>
-		<username>admin</username>
-                <password>mady</password>
-	        <url>http://3.110.148.146:8081/repository/maven-releases/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus-snapshot</id>
-	      <username>admin</username>
-              <password>mady</password>
-	      <url>http://3.110.148.146:8081/repository/maven-snapshots/</url>
-	    </snapshotRepository>
+<distributionManagement>
+  <snapshotRepository>
+    <id>nexus-snapshots</id>
+    <url>http://3.110.148.146:8081/repository/maven-snapshots/</url>
+  </snapshotRepository>
+  <repository>
+    <id>nexus-releases</id>
+    <url>http://3.110.148.146:8081/repository/maven-releases/</url>
+  </repository>
+</distributionManagement>
 	    
 	</distributionManagement>
 	
